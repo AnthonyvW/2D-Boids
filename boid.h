@@ -18,10 +18,11 @@ public:
 
 	int getID();
 	void flock(std::vector<boid*> boidVector);
+	void boidBehavior(std::vector<boid*> boidVector);
 	sf::Vector2f align(std::vector<boid*> boidVector);
 	sf::Vector2f cohesion(std::vector<boid*> boidVector);
 	sf::Vector2f seperation(std::vector<boid*> boidVector);
 	void update(std::vector<boid*> boidVector);
-	void render(sf::RenderWindow& window);
+	void render(sf::RenderWindow& window, sf::CircleShape& circle);
 };
 

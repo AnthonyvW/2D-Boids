@@ -12,6 +12,7 @@
 #include <time.h>
 #include <math.h>
 #include <vector>
+#include <iostream>
 
 //SFML Include
 #include<SFML/System.hpp>
